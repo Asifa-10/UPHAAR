@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - Charity Organization</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Charity Organization</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="donate.html">Donate</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="donate-section">
+        <h2>Your Details</h2>
+        <form>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="amount">Donation amount:</label>
+            <input type="number" id="amount" name="amount" min="1" step="1" required>
+          </div>
+          <div>
+            <label for="message">Message (optional):</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <div class="button-container">
+            <button type="submit" class="button"><a href="charity.html">submit</a></button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Charity Organization. All rights reserved.</p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+  </body>
+</html>

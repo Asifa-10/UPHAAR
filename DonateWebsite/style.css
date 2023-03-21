@@ -1,0 +1,253 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .logo{
+    height: 50px;
+    height: 70px;
+    border-radius: 20px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header styles */
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    color: white;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+  }
+  .social-media a {
+    color: white;
+    margin: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+  }
+  .social-media a ion-icon {
+    color: white;
+    background-color: black;
+  }
+  .social-media a:hover ion-icon {
+    cursor: pointer;
+    transform: translateY(5px);
+  }
+  .footerup{
+    /* background-color: rgb(222, 220, 220); */
+    margin-top: 100px;
+    height: 250px;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .footerup img{
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 200px;
+    width: 260px;
+    border: 1px solid gray;
+
+
+  }
+  .footer2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+  }
+  .div a{
+    color: white;
+    text-decoration: none;
+  }
+  .footer0 {
+    font-weight: 1200;
+    transition-duration: 1s;
+  }
+  .footer0:hover {
+    color: rgb(243, 168, 7);
+  }
+  .footer2 .heading {
+    font-weight: 900;
+    font-size: 18px;
+  }
+  .footer3 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer2 .heading:hover {
+    color: rgb(243, 168, 7);
+  }
+  .footer2 .div:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
+  }
+  .footer3 h4 {
+    margin: 0 10px;
+  }
+  .footer2 div {
+    margin: 10px;
+  }
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #c00;
+  }
+  
+  /* Main content styles */
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+  
+  section {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #c00;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c00;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #333;
+  }
+  
+  /* Footer styles */
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  /* Center the donate page */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the thank you section */
+.thank-you-section {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Style the back to home link */
+.thank-you-section a {
+  color: #f44336;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.thank-you-section a:hover {
+  color: #e53935;
+}
+button a{
+  color: black;
+  font-weight: bold;
+}
